@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "nom": "Buddy_1",
+    "age": 5,
+    "localisation": "Toulouse",
+    "description": "Oscar est un chien adorable et joueur.",
+    "interets": ["rencontrer de nouveaux amis", "explorer le parc", "nager"],
+    "success": 9,
+    "isMatched": true,
+    "dateGoal": ["orange", "melon", "mangue"]
+  },
+  {
+    "id": 2,
+    "nom": "Bella_2",
+    "age": 3,
+    "localisation": "Lille",
+    "description": "Sasha est un chien adorable et joueur.",
+    "interets": ["explorer le parc", "se promener", "jouer à la corde"],
+    "success": 5,
+    "isMatched": true,
+    "dateGoal": ["orange", "abricot", "cerise"]
+  },
+  {
+    "id": 3,
+    "nom": "Bella_3",
+    "age": 7,
+    "localisation": "Nantes",
+    "description": "Rex est un chien adorable et joueur.",
+    "interets": ["jouer avec des frisbees", "explorer le parc", "dormir"],
+    "success": 5,
+    "isMatched": true,
+    "dateGoal": ["mangue", "banane", "pêche"]
+  },
+  {
+    "id": 4,
+    "nom": "Buddy_4",
+    "age": 2,
+    "localisation": "Montpellier",
+    "description": "Maya est un chien adorable et joueur.",
+    "interets": ["dormir", "cacher des jouets", "renifler tout"],
+    "success": 0,
+    "isMatched": false,
+    "dateGoal": ["mangue", "pêche", "cerise"]
+  },
+  {
+    "id": 5,
+    "nom": "Daisy_5",
+    "age": 1,
+    "localisation": "Marseille",
+    "description": "Maya est un chien adorable et joueur.",
+    "interets": ["jouer à la corde", "siestes", "jouer à la balle"],
+    "success": 2,
+    "isMatched": true,
+    "dateGoal": ["orange", "pêche", "banane"]
+  },
+  {
+    "id": 6,
+    "nom": "Milo_6",
+    "age": 7,
+    "localisation": "Paris",
+    "description": "Oscar est un chien adorable et joueur.",
+    "interets": ["nager", "jouer à la corde", "jouer avec des frisbees"],
+    "success": 2,
+    "isMatched": false,
+    "dateGoal": ["fraise", "kiwi", "raisin"]
+  },
+  {
+    "id": 7,
+    "nom": "Max_7",
+    "age": 9,
+    "localisation": "Strasbourg",
+    "description": "Rex est un chien adorable et joueur.",
+    "interets": ["dormir", "se promener", "rencontrer de nouveaux amis"],
+    "success": 1,
+    "isMatched": false,
+    "dateGoal": ["abricot", "melon", "banane"]
+  },
+  {
+    "id": 8,
+    "nom": "Maya_8",
+    "age": 6,
+    "localisation": "Nantes",
+    "description": "Nala est un chien adorable et joueur.",
+    "interets": [
+      "jouer à la balle",
+      "rencontrer de nouveaux amis",
+      "renifler tout"
+    ],
+    "success": 5,
+    "isMatched": true,
+    "dateGoal": ["banane", "cerise", "melon"]
+  },
+  {
+    "id": 9,
+    "nom": "Chloe_9",
+    "age": 5,
+    "localisation": "Bordeaux",
+    "description": "Coco est un chien adorable et joueur.",
+    "interets": ["cacher des jouets", "se promener", "jouer à la corde"],
+    "success": 2,
+    "isMatched": false,
+    "dateGoal": ["cerise", "kiwi", "melon"]
+  },
+  {
+    "id": 10,
+    "nom": "Jack_10",
+    "age": 4,
+    "localisation": "Nice",
+    "description": "Ruby est un chien adorable et joueur.",
+    "interets": ["jouer à la balle", "rencontrer de nouveaux amis", "dormir"],
+    "success": 5,
+    "isMatched": true,
+    "dateGoal": ["abricot", "orange", "fraise"]
+  },
+  {
+    "id": 11,
+    "nom": "Chloe_11",
+    "age": 2,
+    "localisation": "Lille",
+    "description": "Sasha est un chien adorable et joueur.",
+    "interets": ["jouer avec des frisbees", "se promener", "jouer à la balle"],
+    "success": 6,
+    "isMatched": true,
+    "dateGoal": ["abricot", "melon", "raisin"]
+  },
+  {
+    "id": 12,
+    "nom": "Lily_12",
+    "age": 1,
+    "localisation": "Lyon",
+    "description": "Luna est un chien adorable et joueur.",
+    "interets": [
+      "jouer avec des frisbees",
+      "course",
+      "rencontrer de nouveaux amis"
+    ],
+    "success": 0,
+    "isMatched": false,
+    "dateGoal": ["orange", "pomme", "banane"]
+  },
+  {
+    "id": 13,
+    "nom": "Milo_13",
+    "age": 8,
+    "localisation": "Paris",
+    "description": "Jack est un chien adorable et joueur.",
+    "interets": ["jouer à la balle", "nager", "jouer à la corde"],
+    "success": 2,
+    "isMatched": true,
+    "dateGoal": ["abricot", "kiwi", "raisin"]
+  },
+  {
+    "id": 14,
+    "nom": "Oscar_14",
+    "age": 10,
+    "localisation": "Lille",
+    "description": "Oscar est un chien adorable et joueur.",
+    "interets": ["jouer à la corde", "renifler tout", "explorer le parc"],
+    "success": 9,
+    "isMatched": true,
+    "dateGoal": ["pêche", "banane", "raisin"]
+  },
+  {
+    "id": 15,
+    "nom": "Sasha_15",
+    "age": 3,
+    "localisation": "Strasbourg",
+    "description": "Rocky est un chien adorable et joueur.",
+    "interets": ["se promener", "rencontrer de nouveaux amis", "renifler tout"],
+    "success": 1,
+    "isMatched": true,
+    "dateGoal": ["banane", "raisin", "abricot"]
+  },
+  {
+    "id": 16,
+    "nom": "Ruby_16",
+    "age": 6,
+    "localisation": "Lille",
+    "description": "Nala est un chien adorable et joueur.",
+    "interets": ["jouer avec des frisbees", "course", "jouer à la corde"],
+    "success": 8,
+    "isMatched": false,
+    "dateGoal": ["raisin", "mangue", "banane"]
+  },
+  {
+    "id": 17,
+    "nom": "Luna_17",
+    "age": 8,
+    "localisation": "Lyon",
+    "description": "Daisy est un chien adorable et joueur.",
+    "interets": [
+      "explorer le parc",
+      "jouer avec des frisbees",
+      "jouer à la balle"
+    ],
+    "success": 9,
+    "isMatched": false,
+    "dateGoal": ["orange", "melon", "mangue"]
+  },
+  {
+    "id": 18,
+    "nom": "Coco_18",
+    "age": 1,
+    "localisation": "Paris",
+    "description": "Jack est un chien adorable et joueur.",
+    "interets": ["dormir", "course", "renifler tout"],
+    "success": 5,
+    "isMatched": true,
+    "dateGoal": ["raisin", "fraise", "banane"]
+  },
+  {
+    "id": 19,
+    "nom": "Milo_19",
+    "age": 6,
+    "localisation": "Nice",
+    "description": "Nala est un chien adorable et joueur.",
+    "interets": ["explorer le parc", "siestes", "jouer avec des frisbees"],
+    "success": 10,
+    "isMatched": true,
+    "dateGoal": ["orange", "mangue", "raisin"]
+  },
+  {
+    "id": 20,
+    "nom": "Daisy_20",
+    "age": 6,
+    "localisation": "Montpellier",
+    "description": "Lily est un chien adorable et joueur.",
+    "interets": ["cacher des jouets", "renifler tout", "jouer à la balle"],
+    "success": 6,
+    "isMatched": true,
+    "dateGoal": ["mangue", "abricot", "pêche"]
+  }
+]

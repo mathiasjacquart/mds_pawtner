@@ -1,3 +1,8 @@
+import MatchCard from "../components/MatchCard";
 export default function Match() {
-  return <div>Match</div>;
+  return (
+    <div>
+      <MatchCard />
+    </div>
+  );
 }

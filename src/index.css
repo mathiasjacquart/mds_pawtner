@@ -1,0 +1,15 @@
+@import "tailwindcss";
+body {
+}
+@theme {
+  --color-primary: #a8d5ba;
+  --color-secondary: #d9b382;
+  --color-tertiary: #6b4226;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}

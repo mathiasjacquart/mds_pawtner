@@ -4,13 +4,22 @@
   --color-primary: #a8d5ba;
   --color-secondary: #d9b382;
   --color-tertiary: #6b4226;
+  --color-light-bg: #ffedd3;
+  --font-primary: "Fredoka", sans-serif;
 }
 
 .btn-primary {
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+.gradiant-primary {
+  background: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-secondary)
+  );
 }
 
 /* MatchPage Styles */

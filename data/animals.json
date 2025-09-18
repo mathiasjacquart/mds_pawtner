@@ -21,24 +21,115 @@
         "senderId": 2,
         "senderName": "Bella",
         "senderOwner": "Lucas Dubois",
-        "message": "Salut ! Ton chien Milo a l'air adorable ! Mon Bella aimerait le rencontrer 🐕",
-        "timestamp": "2025-01-15 14:30:00"
+        "isOnline": true,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 2,
+            "senderName": "Bella",
+            "senderOwner": "Lucas Dubois",
+            "message": "Salut ! Ton chien Milo a l'air adorable ! Mon Bella aimerait le rencontrer 🐕",
+            "timestamp": "2025-01-15 14:30:00"
+          },
+          {
+            "id": 2,
+            "senderId": 1,
+            "senderName": "Milo",
+            "senderOwner": "Sophie Martin",
+            "message": "Merci pour ton message ! Bella semble très mignonne aussi 😊 On pourrait se retrouver au parc ?",
+            "timestamp": "2025-01-15 14:31:00"
+          },
+          {
+            "id": 3,
+            "senderId": 2,
+            "senderName": "Bella",
+            "senderOwner": "Lucas Dubois",
+            "message": "Oui, je suis souvent à Toulouse ! On pourrait se retrouver au parc ce week-end ?",
+            "timestamp": "2025-01-15 14:32:00"
+          },
+          {
+            "id": 4,
+            "senderId": 1,
+            "senderName": "Milo",
+            "senderOwner": "Sophie Martin",
+            "message": "Pourquoi pas ! Ca serait super !",
+            "timestamp": "2025-01-15 14:32:00"
+          }
+        ]
       },
       {
         "id": 2,
         "senderId": 8,
         "senderName": "Maya",
         "senderOwner": "Thomas Girard",
-        "message": "Bonjour Sophie ! Je vois que Milo adore nager, Maya aussi ! On pourrait organiser une sortie ?",
-        "timestamp": "2025-01-16 09:15:00"
+        "isOnline": true,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 8,
+            "senderName": "Maya",
+            "senderOwner": "Thomas Girard",
+            "message": "Bonjour Sophie ! Je vois que Milo adore nager, Maya aussi ! On pourrait organiser une sortie ?",
+            "timestamp": "2025-01-16 09:15:00"
+          },
+          {
+            "id": 2,
+            "senderId": 1,
+            "senderName": "Milo",
+            "senderOwner": "Sophie Martin",
+            "message": "Salut Thomas ! Excellente idée ! Milo adore l'eau, ce serait parfait pour eux de se rencontrer 🏊‍♂️",
+            "timestamp": "2025-01-16 09:20:00"
+          },
+          {
+            "id": 3,
+            "senderId": 8,
+            "senderName": "Maya",
+            "senderOwner": "Thomas Girard",
+            "message": "Parfait ! On pourrait se retrouver au lac de Toulouse ce week-end ? Il y a une belle plage pour chiens !",
+            "timestamp": "2025-01-16 09:25:00"
+          }
+        ]
       },
       {
         "id": 3,
         "senderId": 14,
         "senderName": "Oscar",
         "senderOwner": "Chloé Gauthier",
-        "message": "Hey ! Oscar et Milo ont le même âge, ils pourraient bien s'entendre ! Tu es souvent à Toulouse ?",
-        "timestamp": "2025-01-16 18:45:00"
+        "isOnline": false,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 14,
+            "senderName": "Oscar",
+            "senderOwner": "Chloé Gauthier",
+            "message": "Hey ! Oscar et Milo ont le même âge, ils pourraient bien s'entendre ! Tu es souvent à Toulouse ?",
+            "timestamp": "2025-01-16 18:45:00"
+          },
+          {
+            "id": 2,
+            "senderId": 1,
+            "senderName": "Milo",
+            "senderOwner": "Sophie Martin",
+            "message": "Salut Chloé ! Oui, on habite à Toulouse ! Oscar a l'air adorable, ils auraient sûrement beaucoup de choses à partager 🐕",
+            "timestamp": "2025-01-16 19:00:00"
+          },
+          {
+            "id": 3,
+            "senderId": 14,
+            "senderName": "Oscar",
+            "senderOwner": "Chloé Gauthier",
+            "message": "Super ! On pourrait organiser une rencontre au parc des expositions ? Il y a plein d'espace pour qu'ils jouent ensemble !",
+            "timestamp": "2025-01-16 19:05:00"
+          },
+          {
+            "id": 4,
+            "senderId": 1,
+            "senderName": "Milo",
+            "senderOwner": "Sophie Martin",
+            "message": "Excellente idée ! Milo adore explorer de nouveaux endroits. On se donne rendez-vous dimanche après-midi ?",
+            "timestamp": "2025-01-16 19:10:00"
+          }
+        ]
       }
     ]
   },

@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App.jsx";
 import Home from "../pages/Home";
 import Match from "../pages/Match";
-import Message from "../pages/Message";
+import Message from "../pages/messages/Message";
 import Profile from "../pages/Profile";
 
 const router = createBrowserRouter([

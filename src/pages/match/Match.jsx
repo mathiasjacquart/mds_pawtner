@@ -1,6 +1,6 @@
-import MatchCard from "../components/MatchCard";
+import MatchCard from "./MatchCard";
 import { useParams } from "react-router-dom";
-import animals from "../../data/animals.json";
+import animals from "../../../data/animals.json";
 export default function Match() {
   const { userId } = useParams();
   const currentUser = animals.find((animal) => animal.id === parseInt(userId));

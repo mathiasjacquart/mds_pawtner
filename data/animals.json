@@ -3,16 +3,16 @@
     "id": 1,
     "nom": "Milo",
     "proprietaire": "Sophie Martin",
-    "image": "public/assets/img/dog1.jpg",
+    "image": "/assets/img/dog1.jpg",
     "age": 5,
     "localisation": "Toulouse",
-    "description": "Oscar est un chien adorable et joueur.",
+    "description": "Milo est un chien énergique et sociable qui adore les aventures en plein air. Toujours prêt pour une nouvelle rencontre, il est le compagnon idéal pour des sorties au parc ou des balades en ville.",
     "interets": ["rencontrer de nouveaux amis", "explorer le parc", "nager"],
     "success": 9,
     "isMatched": true,
     "goal": {
       "name": "Steack",
-      "image": "public/assets/img/steack.png",
+      "image": "/assets/img/steack.png",
       "description": "Une envie de steack pour un soir"
     },
     "messages": [
@@ -137,16 +137,16 @@
     "id": 2,
     "nom": "Bella",
     "proprietaire": "Lucas Dubois",
-    "image": "public/assets/img/dog2.jpg",
+    "image": "/assets/img/dog2.jpg",
     "age": 3,
     "localisation": "Lille",
-    "description": "Sasha est un chien adorable et joueur.",
+    "description": "Bella est une chienne douce et affectueuse qui aime explorer de nouveaux endroits. Elle est très joueuse et adore les jeux de corde avec ses amis à quatre pattes.",
     "interets": ["explorer le parc", "se promener", "jouer à la corde"],
     "success": 5,
     "isMatched": true,
     "goal": {
       "name": "Taco",
-      "image": "public/assets/img/taco.png",
+      "image": "/assets/img/taco.png",
       "description": "Pour des tacos assez récurrents"
     },
     "messages": [
@@ -172,16 +172,16 @@
     "id": 3,
     "nom": "Powder",
     "proprietaire": "Emma Leroy",
-    "image": "public/assets/img/dog3.jpg",
+    "image": "/assets/img/dog3.jpg",
     "age": 7,
     "localisation": "Nantes",
-    "description": "Rex est un chien adorable et joueur.",
+    "description": "Powder est un chien calme et posé qui apprécie les moments de détente. Il aime jouer au frisbee et explorer les parcs, mais ne dit jamais non à une bonne sieste au soleil.",
     "interets": ["jouer avec des frisbees", "explorer le parc", "dormir"],
     "success": 5,
     "isMatched": true,
     "goal": {
       "name": "Ice Cream",
-      "image": "public/assets/img/ice-cream.png",
+      "image": "/assets/img/ice-cream.png",
       "description": "Trouver sa deuxième boule de glace"
     },
     "messages": [
@@ -207,16 +207,16 @@
     "id": 4,
     "nom": "Buddy",
     "proprietaire": "Antoine Bernard",
-    "image": "public/assets/img/dog4.jpg",
+    "image": "/assets/img/dog4.jpg",
     "age": 2,
     "localisation": "Montpellier",
-    "description": "Maya est un chien adorable et joueur.",
+    "description": "Buddy est un jeune chien plein de curiosité qui adore cacher ses jouets et les retrouver. Il passe beaucoup de temps à renifler et découvrir de nouvelles odeurs dans son environnement.",
     "interets": ["dormir", "cacher des jouets", "renifler tout"],
     "success": 0,
     "isMatched": false,
     "goal": {
       "name": "Cupcake",
-      "image": "public/assets/img/cupcake.png",
+      "image": "/assets/img/cupcake.png",
       "description": "Pour un petit goûter entre chiens"
     }
   },
@@ -224,16 +224,16 @@
     "id": 5,
     "nom": "Daisy",
     "proprietaire": "Manon Petit",
-    "image": "public/assets/img/dog5.jpg",
+    "image": "/assets/img/dog5.jpg",
     "age": 1,
     "localisation": "Marseille",
-    "description": "Maya est un chien adorable et joueur.",
+    "description": "Daisy est une jeune chienne dynamique qui adore jouer à la corde et faire des siestes réparatrices. Elle est très sociable et aime rencontrer de nouveaux amis canins.",
     "interets": ["jouer à la corde", "siestes", "jouer à la balle"],
     "success": 2,
     "isMatched": true,
     "goal": {
       "name": "Ice Cream",
-      "image": "public/assets/img/ice-cream.png",
+      "image": "/assets/img/ice-cream.png",
       "description": "Trouver sa deuxième boule de glace"
     }
   },
@@ -241,16 +241,16 @@
     "id": 6,
     "nom": "Moody",
     "proprietaire": "Julien Moreau",
-    "image": "public/assets/img/dog6.jpg",
+    "image": "/assets/img/dog6.jpg",
     "age": 7,
     "localisation": "Paris",
-    "description": "Oscar est un chien adorable et joueur.",
+    "description": "Moody est un chien sportif qui adore nager et jouer au frisbee. Il aime aussi les jeux de corde et est toujours partant pour une nouvelle aventure aquatique.",
     "interets": ["nager", "jouer à la corde", "jouer avec des frisbees"],
     "success": 2,
     "isMatched": false,
     "goal": {
       "name": "Steack",
-      "image": "public/assets/img/steack.png",
+      "image": "/assets/img/steack.png",
       "description": "Une envie de steack pour un soir"
     }
   },
@@ -258,16 +258,16 @@
     "id": 7,
     "nom": "Max",
     "proprietaire": "Clara Rousseau",
-    "image": "public/assets/img/dog7.jpg",
+    "image": "/assets/img/dog7.jpg",
     "age": 9,
     "localisation": "Strasbourg",
-    "description": "Rex est un chien adorable et joueur.",
+    "description": "Max est un chien sage et tranquille qui apprécie les promenades calmes et les rencontres amicales. Il aime se reposer et observer le monde qui l'entoure.",
     "interets": ["dormir", "se promener", "rencontrer de nouveaux amis"],
     "success": 1,
     "isMatched": false,
     "goal": {
       "name": "Taco",
-      "image": "public/assets/img/taco.png",
+      "image": "/assets/img/taco.png",
       "description": "Pour des tacos assez récurrents"
     }
   },
@@ -275,10 +275,10 @@
     "id": 8,
     "nom": "Maya",
     "proprietaire": "Thomas Girard",
-    "image": "public/assets/img/dog8.jpg",
+    "image": "/assets/img/dog8.jpg",
     "age": 6,
     "localisation": "Nantes",
-    "description": "Nala est un chien adorable et joueur.",
+    "description": "Maya est une chienne sociable et énergique qui adore jouer à la balle et rencontrer de nouveaux amis. Elle est très curieuse et aime explorer son environnement en reniflant partout.",
     "interets": [
       "jouer à la balle",
       "rencontrer de nouveaux amis",
@@ -288,7 +288,7 @@
     "isMatched": true,
     "goal": {
       "name": "Cupcake",
-      "image": "public/assets/img/cupcake.png",
+      "image": "/assets/img/cupcake.png",
       "description": "Pour un petit goûter entre chiens"
     }
   },
@@ -296,16 +296,16 @@
     "id": 9,
     "nom": "Chloe",
     "proprietaire": "Léa Simon",
-    "image": "public/assets/img/dog9.jpg",
+    "image": "/assets/img/dog9.jpg",
     "age": 5,
     "localisation": "Bordeaux",
-    "description": "Coco est un chien adorable et joueur.",
+    "description": "Chloe est une chienne malicieuse qui adore cacher ses jouets et faire des promenades. Elle aime aussi jouer à la corde et est très attachée à ses habitudes quotidiennes.",
     "interets": ["cacher des jouets", "se promener", "jouer à la corde"],
     "success": 2,
     "isMatched": false,
     "goal": {
       "name": "Steack",
-      "image": "public/assets/img/steack.png",
+      "image": "/assets/img/steack.png",
       "description": "Une envie de steack pour un soir"
     }
   },
@@ -313,16 +313,16 @@
     "id": 10,
     "nom": "Jack",
     "proprietaire": "Marie Laurent",
-    "image": "public/assets/img/dog10.jpg",
+    "image": "/assets/img/dog10.jpg",
     "age": 4,
     "localisation": "Nice",
-    "description": "Ruby est un chien adorable et joueur.",
+    "description": "Jack est un chien sportif et sociable qui adore jouer à la balle et rencontrer de nouveaux amis. Il aime aussi se reposer après ses activités et est très équilibré.",
     "interets": ["jouer à la balle", "rencontrer de nouveaux amis", "dormir"],
     "success": 5,
     "isMatched": true,
     "goal": {
       "name": "Ice Cream",
-      "image": "public/assets/img/ice-cream.png",
+      "image": "/assets/img/ice-cream.png",
       "description": "Trouver sa deuxième boule de glace"
     }
   },
@@ -330,16 +330,16 @@
     "id": 11,
     "nom": "Rex",
     "proprietaire": "Hugo Lefebvre",
-    "image": "public/assets/img/dog11.jpg",
+    "image": "/assets/img/dog11.jpg",
     "age": 2,
     "localisation": "Lille",
-    "description": "Sasha est un chien adorable et joueur.",
+    "description": "Rex est un chien athlétique qui excelle dans les jeux de frisbee et les promenades. Il aime aussi jouer à la balle et est très sociable avec les autres chiens.",
     "interets": ["jouer avec des frisbees", "se promener", "jouer à la balle"],
     "success": 6,
     "isMatched": true,
     "goal": {
       "name": "Taco",
-      "image": "public/assets/img/taco.png",
+      "image": "/assets/img/taco.png",
       "description": "Pour des tacos assez récurrents"
     }
   },
@@ -347,10 +347,10 @@
     "id": 12,
     "nom": "Lily",
     "proprietaire": "Camille Roux",
-    "image": "public/assets/img/dog12.jpg",
+    "image": "/assets/img/dog12.jpg",
     "age": 1,
     "localisation": "Lyon",
-    "description": "Luna est un chien adorable et joueur.",
+    "description": "Lily est une jeune chienne énergique qui adore courir et jouer au frisbee. Elle est très sociable et aime rencontrer de nouveaux amis pour partager ses activités préférées.",
     "interets": [
       "jouer avec des frisbees",
       "course",
@@ -360,7 +360,7 @@
     "isMatched": false,
     "goal": {
       "name": "Cupcake",
-      "image": "public/assets/img/cupcake.png",
+      "image": "/assets/img/cupcake.png",
       "description": "Pour un petit goûter entre chiens"
     }
   },
@@ -368,16 +368,16 @@
     "id": 13,
     "nom": "Mango",
     "proprietaire": "Mathieu Vincent",
-    "image": "public/assets/img/dog13.jpg",
+    "image": "/assets/img/dog13.jpg",
     "age": 8,
     "localisation": "Paris",
-    "description": "Jack est un chien adorable et joueur.",
+    "description": "Mango est un chien mature et équilibré qui aime jouer à la balle, nager et s'amuser avec des cordes. Il est très sociable et apprécie les activités variées.",
     "interets": ["jouer à la balle", "nager", "jouer à la corde"],
     "success": 2,
     "isMatched": true,
     "goal": {
       "name": "Steack",
-      "image": "public/assets/img/steack.png",
+      "image": "/assets/img/steack.png",
       "description": "Une envie de steack pour un soir"
     }
   },
@@ -385,16 +385,16 @@
     "id": 14,
     "nom": "Oscar",
     "proprietaire": "Chloé Gauthier",
-    "image": "public/assets/img/dog14.jpg",
+    "image": "/assets/img/dog14.jpg",
     "age": 10,
     "localisation": "Lille",
-    "description": "Oscar est un chien adorable et joueur.",
+    "description": "Oscar est un chien sage et expérimenté qui aime jouer à la corde et explorer les parcs. Il est très curieux et passe beaucoup de temps à renifler pour découvrir de nouvelles odeurs.",
     "interets": ["jouer à la corde", "renifler tout", "explorer le parc"],
     "success": 9,
     "isMatched": true,
     "goal": {
       "name": "Ice Cream",
-      "image": "public/assets/img/ice-cream.png",
+      "image": "/assets/img/ice-cream.png",
       "description": "Trouver sa deuxième boule de glace"
     }
   },
@@ -402,16 +402,16 @@
     "id": 15,
     "nom": "Sasha",
     "proprietaire": "Nicolas Mercier",
-    "image": "public/assets/img/dog15.jpg",
+    "image": "/assets/img/dog15.jpg",
     "age": 3,
     "localisation": "Strasbourg",
-    "description": "Rocky est un chien adorable et joueur.",
+    "description": "Sasha est une chienne sociable et curieuse qui adore se promener et rencontrer de nouveaux amis. Elle aime aussi renifler partout pour découvrir son environnement.",
     "interets": ["se promener", "rencontrer de nouveaux amis", "renifler tout"],
     "success": 1,
     "isMatched": true,
     "goal": {
       "name": "Taco",
-      "image": "public/assets/img/taco.png",
+      "image": "/assets/img/taco.png",
       "description": "Pour des tacos assez récurrents"
     }
   },
@@ -419,16 +419,16 @@
     "id": 16,
     "nom": "Ruby",
     "proprietaire": "Justine Blanc",
-    "image": "public/assets/img/dog16.jpg",
+    "image": "/assets/img/dog16.jpg",
     "age": 6,
     "localisation": "Lille",
-    "description": "Nala est un chien adorable et joueur.",
+    "description": "Ruby est une chienne sportive et énergique qui excelle dans les jeux de frisbee et la course. Elle aime aussi jouer à la corde et est très dynamique.",
     "interets": ["jouer avec des frisbees", "course", "jouer à la corde"],
     "success": 8,
     "isMatched": false,
     "goal": {
       "name": "Cupcake",
-      "image": "public/assets/img/cupcake.png",
+      "image": "/assets/img/cupcake.png",
       "description": "Pour un petit goûter entre chiens"
     }
   },
@@ -436,10 +436,10 @@
     "id": 17,
     "nom": "Luna",
     "proprietaire": "Maxime Fournier",
-    "image": "public/assets/img/dog17.jpg",
+    "image": "/assets/img/dog17.jpg",
     "age": 8,
     "localisation": "Lyon",
-    "description": "Daisy est un chien adorable et joueur.",
+    "description": "Luna est une chienne aventureuse qui adore explorer les parcs et jouer au frisbee. Elle aime aussi jouer à la balle et est très active et sociable.",
     "interets": [
       "explorer le parc",
       "jouer avec des frisbees",
@@ -449,7 +449,7 @@
     "isMatched": false,
     "goal": {
       "name": "Steack",
-      "image": "public/assets/img/steack.png",
+      "image": "/assets/img/steack.png",
       "description": "Une envie de steack pour un soir"
     }
   },
@@ -457,16 +457,16 @@
     "id": 18,
     "nom": "Coco",
     "proprietaire": "Sarah Guerin",
-    "image": "public/assets/img/dog18.jpg",
+    "image": "/assets/img/dog18.jpg",
     "age": 1,
     "localisation": "Paris",
-    "description": "Jack est un chien adorable et joueur.",
+    "description": "Coco est une jeune chienne calme qui aime courir et renifler partout. Elle apprécie aussi les moments de repos et est très observatrice de son environnement.",
     "interets": ["dormir", "course", "renifler tout"],
     "success": 5,
     "isMatched": true,
     "goal": {
       "name": "Ice Cream",
-      "image": "public/assets/img/ice-cream.png",
+      "image": "/assets/img/ice-cream.png",
       "description": "Trouver sa deuxième boule de glace"
     }
   },
@@ -474,16 +474,16 @@
     "id": 19,
     "nom": "Mickey",
     "proprietaire": "Paul Morel",
-    "image": "public/assets/img/dog19.jpg",
+    "image": "/assets/img/dog19.jpg",
     "age": 6,
     "localisation": "Nice",
-    "description": "Nala est un chien adorable et joueur.",
+    "description": "Mickey est une chienne équilibrée qui aime explorer les parcs, faire des siestes et jouer au frisbee. Elle est très sociable et apprécie les activités variées.",
     "interets": ["explorer le parc", "siestes", "jouer avec des frisbees"],
     "success": 10,
     "isMatched": true,
     "goal": {
       "name": "Taco",
-      "image": "public/assets/img/taco.png",
+      "image": "/assets/img/taco.png",
       "description": "Pour des tacos assez récurrents"
     }
   },
@@ -491,17 +491,116 @@
     "id": 20,
     "nom": "Violet",
     "proprietaire": "Aurélien Durand",
-    "image": "public/assets/img/dog20.jpg",
+    "image": "/assets/img/dog20.jpg",
     "age": 6,
     "localisation": "Montpellier",
-    "description": "Lily est un chien adorable et joueur.",
+    "description": "Violet est une chienne malicieuse qui adore cacher ses jouets et renifler partout. Elle aime aussi jouer à la balle et est très curieuse de son environnement.",
     "interets": ["cacher des jouets", "renifler tout", "jouer à la balle"],
     "success": 6,
     "isMatched": true,
     "goal": {
       "name": "Cupcake",
-      "image": "public/assets/img/cupcake.png",
+      "image": "/assets/img/cupcake.png",
       "description": "Pour un petit goûter entre chiens"
     }
+  },
+  {
+    "id": 21,
+    "nom": "Doug",
+    "proprietaire": "Alexandre Moreau",
+    "image": "/assets/img/doug.webp",
+    "age": 4,
+    "localisation": "Paris",
+    "description": "Doug est un chien exceptionnellement populaire et charismatique qui attire tous les regards. Il est très sociable, intelligent et a un charme naturel qui fait de lui le chien le plus convoité de la ville. Il adore les aventures et les rencontres.",
+    "interets": [
+      "rencontrer de nouveaux amis",
+      "explorer le parc",
+      "jouer à la balle",
+      "nager"
+    ],
+    "success": 15,
+    "isMatched": false,
+    "goal": {
+      "name": "Steack",
+      "image": "/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    },
+    "messages": [
+      {
+        "id": 1,
+        "senderId": 2,
+        "senderName": "Bella",
+        "senderOwner": "Lucas Dubois",
+        "isOnline": true,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 2,
+            "senderName": "Bella",
+            "senderOwner": "Lucas Dubois",
+            "message": "Salut Doug ! Tu es vraiment le chien le plus populaire de Paris ! Bella aimerait tellement te rencontrer 🐕",
+            "timestamp": "2025-01-20 10:30:00"
+          },
+          {
+            "id": 2,
+            "senderId": 21,
+            "senderName": "Doug",
+            "senderOwner": "Alexandre Moreau",
+            "message": "Salut Bella ! Merci pour ton message ! J'adorerais te rencontrer aussi, tu as l'air adorable 😊",
+            "timestamp": "2025-01-20 10:31:00"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "senderId": 5,
+        "senderName": "Daisy",
+        "senderOwner": "Manon Petit",
+        "isOnline": true,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 5,
+            "senderName": "Daisy",
+            "senderOwner": "Manon Petit",
+            "message": "Hey Doug ! Tous les chiens parlent de toi ! Daisy veut absolument te rencontrer, tu es une vraie star ! ⭐",
+            "timestamp": "2025-01-20 14:15:00"
+          },
+          {
+            "id": 2,
+            "senderId": 21,
+            "senderName": "Doug",
+            "senderOwner": "Alexandre Moreau",
+            "message": "Haha merci Daisy ! Je suis flatté ! On devrait organiser une grande rencontre au parc !",
+            "timestamp": "2025-01-20 14:16:00"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "senderId": 12,
+        "senderName": "Lily",
+        "senderOwner": "Camille Roux",
+        "isOnline": false,
+        "conversation": [
+          {
+            "id": 1,
+            "senderId": 12,
+            "senderName": "Lily",
+            "senderOwner": "Camille Roux",
+            "message": "Salut Doug ! Lily a entendu parler de ta popularité ! Elle veut absolument courir avec toi !",
+            "timestamp": "2025-01-21 09:00:00"
+          },
+          {
+            "id": 2,
+            "senderId": 21,
+            "senderName": "Doug",
+            "senderOwner": "Alexandre Moreau",
+            "message": "Salut Lily ! J'adore courir ! On pourrait faire une course ensemble au parc !",
+            "timestamp": "2025-01-21 09:05:00"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen bg-light-bg">
-      <main className="flex-1 overflow-y-auto pb-16">
+      <main className="flex-1 overflow-y-auto pb-16 font-primary">
         <Outlet />
       </main>
       <Header activePage={activePage} setActivePage={setActivePage} />

@@ -27,7 +27,7 @@ export default function HomeCard({ animal }) {
             </p>
           </div>
           <p>{animal.description}</p>
-          <button className=" my-2 btn-primary text-center font-medium flex flex-row items-center justify-center">
+          <button className=" my-2 btn-primary w-40 font-medium flex flex-row items-center justify-start">
             Voir le profil
             <span className="ml-2">
               {" "}

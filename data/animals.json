@@ -1,84 +1,190 @@
 [
   {
     "id": 1,
-    "nom": "Buddy_1",
+    "nom": "Milo",
+    "proprietaire": "Sophie Martin",
+    "image": "public/assets/img/dog1.jpg",
     "age": 5,
     "localisation": "Toulouse",
     "description": "Oscar est un chien adorable et joueur.",
     "interets": ["rencontrer de nouveaux amis", "explorer le parc", "nager"],
     "success": 9,
     "isMatched": true,
-    "dateGoal": ["orange", "melon", "mangue"]
+    "goal": {
+      "name": "Steack",
+      "image": "public/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    },
+    "messages": [
+      {
+        "id": 1,
+        "senderId": 2,
+        "senderName": "Bella",
+        "senderOwner": "Lucas Dubois",
+        "message": "Salut ! Ton chien Milo a l'air adorable ! Mon Bella aimerait le rencontrer 🐕",
+        "timestamp": "2025-01-15 14:30:00"
+      },
+      {
+        "id": 2,
+        "senderId": 8,
+        "senderName": "Maya",
+        "senderOwner": "Thomas Girard",
+        "message": "Bonjour Sophie ! Je vois que Milo adore nager, Maya aussi ! On pourrait organiser une sortie ?",
+        "timestamp": "2025-01-16 09:15:00"
+      },
+      {
+        "id": 3,
+        "senderId": 14,
+        "senderName": "Oscar",
+        "senderOwner": "Chloé Gauthier",
+        "message": "Hey ! Oscar et Milo ont le même âge, ils pourraient bien s'entendre ! Tu es souvent à Toulouse ?",
+        "timestamp": "2025-01-16 18:45:00"
+      }
+    ]
   },
   {
     "id": 2,
-    "nom": "Bella_2",
+    "nom": "Bella",
+    "proprietaire": "Lucas Dubois",
+    "image": "public/assets/img/dog2.jpg",
     "age": 3,
     "localisation": "Lille",
     "description": "Sasha est un chien adorable et joueur.",
     "interets": ["explorer le parc", "se promener", "jouer à la corde"],
     "success": 5,
     "isMatched": true,
-    "dateGoal": ["orange", "abricot", "cerise"]
+    "goal": {
+      "name": "Taco",
+      "image": "public/assets/img/taco.png",
+      "description": "Pour des tacos assez récurrents"
+    },
+    "messages": [
+      {
+        "id": 1,
+        "senderId": 1,
+        "senderName": "Milo",
+        "senderOwner": "Sophie Martin",
+        "message": "Merci pour ton message ! Bella semble très mignonne aussi 😊 On pourrait se retrouver au parc ?",
+        "timestamp": "2025-01-15 15:00:00"
+      },
+      {
+        "id": 2,
+        "senderId": 10,
+        "senderName": "Jack",
+        "senderOwner": "Marie Laurent",
+        "message": "Coucou Lucas ! Jack adore jouer à la balle comme Bella, on devrait organiser une rencontre !",
+        "timestamp": "2025-01-17 11:20:00"
+      }
+    ]
   },
   {
     "id": 3,
-    "nom": "Bella_3",
+    "nom": "Powder",
+    "proprietaire": "Emma Leroy",
+    "image": "public/assets/img/dog3.jpg",
     "age": 7,
     "localisation": "Nantes",
     "description": "Rex est un chien adorable et joueur.",
     "interets": ["jouer avec des frisbees", "explorer le parc", "dormir"],
     "success": 5,
     "isMatched": true,
-    "dateGoal": ["mangue", "banane", "pêche"]
+    "goal": {
+      "name": "Ice Cream",
+      "image": "public/assets/img/ice-cream.png",
+      "description": "Trouver sa deuxième boule de glace"
+    },
+    "messages": [
+      {
+        "id": 1,
+        "senderId": 5,
+        "senderName": "Daisy",
+        "senderOwner": "Manon Petit",
+        "message": "Salut Emma ! Daisy et Powder ont le même objectif glace ! Une rencontre gourmande ? 🍦",
+        "timestamp": "2025-01-18 16:30:00"
+      },
+      {
+        "id": 2,
+        "senderId": 18,
+        "senderName": "Coco",
+        "senderOwner": "Sarah Guerin",
+        "message": "Hello ! Coco adore les glaces aussi ! On pourrait faire une sortie tous ensemble ?",
+        "timestamp": "2025-01-19 10:15:00"
+      }
+    ]
   },
   {
     "id": 4,
-    "nom": "Buddy_4",
+    "nom": "Buddy",
+    "proprietaire": "Antoine Bernard",
+    "image": "public/assets/img/dog4.jpg",
     "age": 2,
     "localisation": "Montpellier",
     "description": "Maya est un chien adorable et joueur.",
     "interets": ["dormir", "cacher des jouets", "renifler tout"],
     "success": 0,
     "isMatched": false,
-    "dateGoal": ["mangue", "pêche", "cerise"]
+    "goal": {
+      "name": "Cupcake",
+      "image": "public/assets/img/cupcake.png",
+      "description": "Pour un petit goûter entre chiens"
+    }
   },
   {
     "id": 5,
-    "nom": "Daisy_5",
+    "nom": "Daisy",
+    "proprietaire": "Manon Petit",
+    "image": "public/assets/img/dog5.jpg",
     "age": 1,
     "localisation": "Marseille",
     "description": "Maya est un chien adorable et joueur.",
     "interets": ["jouer à la corde", "siestes", "jouer à la balle"],
     "success": 2,
     "isMatched": true,
-    "dateGoal": ["orange", "pêche", "banane"]
+    "goal": {
+      "name": "Ice Cream",
+      "image": "public/assets/img/ice-cream.png",
+      "description": "Trouver sa deuxième boule de glace"
+    }
   },
   {
     "id": 6,
-    "nom": "Milo_6",
+    "nom": "Moody",
+    "proprietaire": "Julien Moreau",
+    "image": "public/assets/img/dog6.jpg",
     "age": 7,
     "localisation": "Paris",
     "description": "Oscar est un chien adorable et joueur.",
     "interets": ["nager", "jouer à la corde", "jouer avec des frisbees"],
     "success": 2,
     "isMatched": false,
-    "dateGoal": ["fraise", "kiwi", "raisin"]
+    "goal": {
+      "name": "Steack",
+      "image": "public/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    }
   },
   {
     "id": 7,
-    "nom": "Max_7",
+    "nom": "Max",
+    "proprietaire": "Clara Rousseau",
+    "image": "public/assets/img/dog7.jpg",
     "age": 9,
     "localisation": "Strasbourg",
     "description": "Rex est un chien adorable et joueur.",
     "interets": ["dormir", "se promener", "rencontrer de nouveaux amis"],
     "success": 1,
     "isMatched": false,
-    "dateGoal": ["abricot", "melon", "banane"]
+    "goal": {
+      "name": "Taco",
+      "image": "public/assets/img/taco.png",
+      "description": "Pour des tacos assez récurrents"
+    }
   },
   {
     "id": 8,
-    "nom": "Maya_8",
+    "nom": "Maya",
+    "proprietaire": "Thomas Girard",
+    "image": "public/assets/img/dog8.jpg",
     "age": 6,
     "localisation": "Nantes",
     "description": "Nala est un chien adorable et joueur.",
@@ -89,44 +195,68 @@
     ],
     "success": 5,
     "isMatched": true,
-    "dateGoal": ["banane", "cerise", "melon"]
+    "goal": {
+      "name": "Cupcake",
+      "image": "public/assets/img/cupcake.png",
+      "description": "Pour un petit goûter entre chiens"
+    }
   },
   {
     "id": 9,
-    "nom": "Chloe_9",
+    "nom": "Chloe",
+    "proprietaire": "Léa Simon",
+    "image": "public/assets/img/dog9.jpg",
     "age": 5,
     "localisation": "Bordeaux",
     "description": "Coco est un chien adorable et joueur.",
     "interets": ["cacher des jouets", "se promener", "jouer à la corde"],
     "success": 2,
     "isMatched": false,
-    "dateGoal": ["cerise", "kiwi", "melon"]
+    "goal": {
+      "name": "Steack",
+      "image": "public/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    }
   },
   {
     "id": 10,
-    "nom": "Jack_10",
+    "nom": "Jack",
+    "proprietaire": "Marie Laurent",
+    "image": "public/assets/img/dog10.jpg",
     "age": 4,
     "localisation": "Nice",
     "description": "Ruby est un chien adorable et joueur.",
     "interets": ["jouer à la balle", "rencontrer de nouveaux amis", "dormir"],
     "success": 5,
     "isMatched": true,
-    "dateGoal": ["abricot", "orange", "fraise"]
+    "goal": {
+      "name": "Ice Cream",
+      "image": "public/assets/img/ice-cream.png",
+      "description": "Trouver sa deuxième boule de glace"
+    }
   },
   {
     "id": 11,
-    "nom": "Chloe_11",
+    "nom": "Rex",
+    "proprietaire": "Hugo Lefebvre",
+    "image": "public/assets/img/dog11.jpg",
     "age": 2,
     "localisation": "Lille",
     "description": "Sasha est un chien adorable et joueur.",
     "interets": ["jouer avec des frisbees", "se promener", "jouer à la balle"],
     "success": 6,
     "isMatched": true,
-    "dateGoal": ["abricot", "melon", "raisin"]
+    "goal": {
+      "name": "Taco",
+      "image": "public/assets/img/taco.png",
+      "description": "Pour des tacos assez récurrents"
+    }
   },
   {
     "id": 12,
-    "nom": "Lily_12",
+    "nom": "Lily",
+    "proprietaire": "Camille Roux",
+    "image": "public/assets/img/dog12.jpg",
     "age": 1,
     "localisation": "Lyon",
     "description": "Luna est un chien adorable et joueur.",
@@ -137,55 +267,85 @@
     ],
     "success": 0,
     "isMatched": false,
-    "dateGoal": ["orange", "pomme", "banane"]
+    "goal": {
+      "name": "Cupcake",
+      "image": "public/assets/img/cupcake.png",
+      "description": "Pour un petit goûter entre chiens"
+    }
   },
   {
     "id": 13,
-    "nom": "Milo_13",
+    "nom": "Mango",
+    "proprietaire": "Mathieu Vincent",
+    "image": "public/assets/img/dog13.jpg",
     "age": 8,
     "localisation": "Paris",
     "description": "Jack est un chien adorable et joueur.",
     "interets": ["jouer à la balle", "nager", "jouer à la corde"],
     "success": 2,
     "isMatched": true,
-    "dateGoal": ["abricot", "kiwi", "raisin"]
+    "goal": {
+      "name": "Steack",
+      "image": "public/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    }
   },
   {
     "id": 14,
-    "nom": "Oscar_14",
+    "nom": "Oscar",
+    "proprietaire": "Chloé Gauthier",
+    "image": "public/assets/img/dog14.jpg",
     "age": 10,
     "localisation": "Lille",
     "description": "Oscar est un chien adorable et joueur.",
     "interets": ["jouer à la corde", "renifler tout", "explorer le parc"],
     "success": 9,
     "isMatched": true,
-    "dateGoal": ["pêche", "banane", "raisin"]
+    "goal": {
+      "name": "Ice Cream",
+      "image": "public/assets/img/ice-cream.png",
+      "description": "Trouver sa deuxième boule de glace"
+    }
   },
   {
     "id": 15,
-    "nom": "Sasha_15",
+    "nom": "Sasha",
+    "proprietaire": "Nicolas Mercier",
+    "image": "public/assets/img/dog15.jpg",
     "age": 3,
     "localisation": "Strasbourg",
     "description": "Rocky est un chien adorable et joueur.",
     "interets": ["se promener", "rencontrer de nouveaux amis", "renifler tout"],
     "success": 1,
     "isMatched": true,
-    "dateGoal": ["banane", "raisin", "abricot"]
+    "goal": {
+      "name": "Taco",
+      "image": "public/assets/img/taco.png",
+      "description": "Pour des tacos assez récurrents"
+    }
   },
   {
     "id": 16,
-    "nom": "Ruby_16",
+    "nom": "Ruby",
+    "proprietaire": "Justine Blanc",
+    "image": "public/assets/img/dog16.jpg",
     "age": 6,
     "localisation": "Lille",
     "description": "Nala est un chien adorable et joueur.",
     "interets": ["jouer avec des frisbees", "course", "jouer à la corde"],
     "success": 8,
     "isMatched": false,
-    "dateGoal": ["raisin", "mangue", "banane"]
+    "goal": {
+      "name": "Cupcake",
+      "image": "public/assets/img/cupcake.png",
+      "description": "Pour un petit goûter entre chiens"
+    }
   },
   {
     "id": 17,
-    "nom": "Luna_17",
+    "nom": "Luna",
+    "proprietaire": "Maxime Fournier",
+    "image": "public/assets/img/dog17.jpg",
     "age": 8,
     "localisation": "Lyon",
     "description": "Daisy est un chien adorable et joueur.",
@@ -196,39 +356,61 @@
     ],
     "success": 9,
     "isMatched": false,
-    "dateGoal": ["orange", "melon", "mangue"]
+    "goal": {
+      "name": "Steack",
+      "image": "public/assets/img/steack.png",
+      "description": "Une envie de steack pour un soir"
+    }
   },
   {
     "id": 18,
-    "nom": "Coco_18",
+    "nom": "Coco",
+    "proprietaire": "Sarah Guerin",
+    "image": "public/assets/img/dog18.jpg",
     "age": 1,
     "localisation": "Paris",
     "description": "Jack est un chien adorable et joueur.",
     "interets": ["dormir", "course", "renifler tout"],
     "success": 5,
     "isMatched": true,
-    "dateGoal": ["raisin", "fraise", "banane"]
+    "goal": {
+      "name": "Ice Cream",
+      "image": "public/assets/img/ice-cream.png",
+      "description": "Trouver sa deuxième boule de glace"
+    }
   },
   {
     "id": 19,
-    "nom": "Milo_19",
+    "nom": "Mickey",
+    "proprietaire": "Paul Morel",
+    "image": "public/assets/img/dog19.jpg",
     "age": 6,
     "localisation": "Nice",
     "description": "Nala est un chien adorable et joueur.",
     "interets": ["explorer le parc", "siestes", "jouer avec des frisbees"],
     "success": 10,
     "isMatched": true,
-    "dateGoal": ["orange", "mangue", "raisin"]
+    "goal": {
+      "name": "Taco",
+      "image": "public/assets/img/taco.png",
+      "description": "Pour des tacos assez récurrents"
+    }
   },
   {
     "id": 20,
-    "nom": "Daisy_20",
+    "nom": "Violet",
+    "proprietaire": "Aurélien Durand",
+    "image": "public/assets/img/dog20.jpg",
     "age": 6,
     "localisation": "Montpellier",
     "description": "Lily est un chien adorable et joueur.",
     "interets": ["cacher des jouets", "renifler tout", "jouer à la balle"],
     "success": 6,
     "isMatched": true,
-    "dateGoal": ["mangue", "abricot", "pêche"]
+    "goal": {
+      "name": "Cupcake",
+      "image": "public/assets/img/cupcake.png",
+      "description": "Pour un petit goûter entre chiens"
+    }
   }
 ]

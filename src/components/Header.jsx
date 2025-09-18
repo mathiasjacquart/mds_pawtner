@@ -1,11 +1,29 @@
 import { Home, Heart, MessageCircle, Dog } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
-function Header({ activePage, setActivePage }) {
+function Header({ activePage }) {
+  const navigate = useNavigate();
+
+  // ID de l'utilisateur par défaut pour la session (user 1)
+  const defaultUserId = 1;
+
   const links = [
-    { id: "home", icon: <Home size={24} />, label: "Accueil" },
-    { id: "matches", icon: <Heart size={24} />, label: "Matchs" },
-    { id: "messages", icon: <MessageCircle size={24} />, label: "Messages" },
-    { id: "profile", icon: <Dog size={24} />, label: "Profil" },
+    { id: "/", icon: <Home size={24} />, label: "Accueil" },
+    {
+      id: `/match/${defaultUserId}`,
+      icon: <Heart size={24} />,
+      label: "Matchs",
+    },
+    {
+      id: `/messages/${defaultUserId}`,
+      icon: <MessageCircle size={24} />,
+      label: "Messages",
+    },
+    {
+      id: `/profile/${defaultUserId}`,
+      icon: <Dog size={24} />,
+      label: "Profil",
+    },
   ];
 
   return (
@@ -13,7 +31,7 @@ function Header({ activePage, setActivePage }) {
       {links.map((link) => (
         <button
           key={link.id}
-          onClick={() => setActivePage(link.id)}
+          onClick={() => navigate(link.id)}
           className={`flex flex-col items-center text-sm ${
             activePage === link.id ? "text-white" : "text-tertiary"
           }`}

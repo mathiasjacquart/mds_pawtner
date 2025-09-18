@@ -1,27 +1,7 @@
-// import doug from '../assets/img/doug.webp'
-
-// export default function Profile() {
-//   return (
-
-//     <body className="body-profile">
-//       <h1>PROFIL</h1>
-//       <div className="profile-container">
-//         <div className="dog-profile">
-//              <img src={doug} alt="" className="dog-img"/>
-//           <h2>Doggy Style</h2>
-//           <ul className="profile-attributes">
-//             <li className='age'>Age: 7 ans</li>
-//             <li className='breed'>Race: Chien dégueu</li>
-//             <li className='size'>Taille: 30cm</li>
-//             <li className='weight'>Poids: 10kg</li>
-//           </ul>
-//         </div>
-//       </div>
-//     </body>
-//   );
-// }
 
 import React from "react";
+import { useParams } from "react-router-dom";
+import animals from "../../data/animals.json";
 
 const ProfilChien = ({ chien }) => {
   return (
@@ -83,7 +63,6 @@ const ProfilChien = ({ chien }) => {
   );
 };
 
-// Exemple d'utilisation
 const exempleChien = {
   nom: "DoggyStayle",
   photo: "https://placedog.net/300/300?id=5",
@@ -97,10 +76,9 @@ const exempleChien = {
   activites: ["Ballon", "Baignade", "Longues balades", "Siestes"],
 };
 
-export default function App() {
+export default function Profile() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <ProfilChien chien={exempleChien} />
     </div>
-  );
 }

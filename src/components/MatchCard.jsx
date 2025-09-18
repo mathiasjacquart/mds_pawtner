@@ -10,7 +10,7 @@ export default function  MatchCard() {
   return (
   <div className="body-match">
     <img src={tongue} alt="" className='tongueimg' />
-    <h1>TROUVEZ LA TRUFFE DE VOTRE VIE</h1>
+    <h1>LA CHASSE AUX TRUFFES EST OUVERTE</h1>
     <div className="matchapp">
         <div className="matchcard">
             <div className="card-info">
@@ -18,9 +18,9 @@ export default function  MatchCard() {
               <h2>
                 DOUG, 7 ans. 
               </h2>
-              <p>
+              <p className="card-description">
                 Amateur de balades en forêt et de siestes au soleil, Doug est un chien affectueux
-                 qui cherche une famille aimante pour partager ses aventures quotidiennes.
+                 qui cherche une famille aimante pour partager ses aventures quotidiennes. 
               </p>
               
             </div>

@@ -1,38 +1,106 @@
-export default function Profile() {
+// import doug from '../assets/img/doug.webp'
+
+// export default function Profile() {
+//   return (
+
+//     <body className="body-profile">
+//       <h1>PROFIL</h1>
+//       <div className="profile-container">
+//         <div className="dog-profile">
+//              <img src={doug} alt="" className="dog-img"/>
+//           <h2>Doggy Style</h2>
+//           <ul className="profile-attributes">
+//             <li className='age'>Age: 7 ans</li>
+//             <li className='breed'>Race: Chien dégueu</li>
+//             <li className='size'>Taille: 30cm</li>
+//             <li className='weight'>Poids: 10kg</li>
+//           </ul>
+//         </div>
+//       </div>
+//     </body>
+//   );
+// }
+
+import React from "react";
+
+const ProfilChien = ({ chien }) => {
   return (
-
-    <body className="body-profile">
+    <div>
       <h1>PROFIL</h1>
-      <div className="profile-container">
-        <div >
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Sapiente, porro inventore quasi eaque laborum consequuntur,
- odit architecto omnis, eligendi voluptatem earum nisi at. 
- Est, nulla.
+    <div className="profile-container max-w-md mx-auto bg-white shadow-lg rounded-2xl overflow-hidden p-6 relative flex justify-between items-start mb-4">
+      <div className="name-img">
+
+    
+      <h2 className="text-2xl font-bold mb-2 w-20">{chien.nom}</h2>
+      <img
+        src={chien.photo}
+        alt={chien.nom}
+        className="w-24 h-24 object-cover rounded-full absolut top-4 right-4 border-4 border-white shadow-md"
+        />
         </div>
 
-        <div>
-       
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Sapiente, porro inventore quasi eaque laborum consequuntur,
- odit architecto omnis, eligendi voluptatem earum nisi at. 
- Est, nulla.
-        </div>
+      {/* Nom */}
 
-        <div>
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Sapiente, porro inventore quasi eaque laborum consequuntur,
- odit architecto omnis, eligendi voluptatem earum nisi at. 
- Est, nulla.     
-        </div>
-
-        <div>
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Sapiente, porro inventore quasi eaque laborum consequuntur,
- odit architecto omnis, eligendi voluptatem earum nisi at. 
- Est, nulla.     
-        </div>
+      {/* Infos de base */}
+      <div className="mb-4 space-y-1">
+        <p><span className="font-semibold">Âge :</span> {chien.age}</p>
+        <p><span className="font-semibold">Race :</span> {chien.race}</p>
+        <p><span className="font-semibold">Taille :</span> {chien.taille}</p>
       </div>
-    </body>
+
+      {/* Caractère */}
+      <div className="mb-4">
+        <h3 className="font-semibold text-lg mb-1">Caractère</h3>
+        <p>{chien.caractere}</p>
+      </div>
+
+      {/* Santé */}
+      <div className="mb-4">
+        <h3 className="font-semibold text-lg mb-1">Santé</h3>
+        <ul className="list-disc list-inside">
+          <li>Stérilisé : {chien.sterilise ? "Oui" : "Non"}</li>
+          <li>Vaccins à jour : {chien.vaccins ? "Oui" : "Non"}</li>
+          {chien.santeSupplementaire && <li>{chien.santeSupplementaire}</li>}
+        </ul>
+      </div>
+
+      {/* Activités */}
+      <div>
+        <h3 className="font-semibold text-lg mb-1">Activités préférées</h3>
+        <ul className="flex flex-wrap gap-2">
+          {chien.activites.map((act, i) => (
+            <span
+            key={i}
+            className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded-full"
+            >
+              {act}
+            </span>
+          ))}
+        </ul>
+      </div>
+    </div>
+          </div>
+  );
+};
+
+// Exemple d'utilisation
+const exempleChien = {
+  nom: "DoggyStayle",
+  photo: "https://placedog.net/300/300?id=5",
+  age: "3 ans",
+  race: "Labrador",
+  taille: "Moyenne",
+  caractere: "Joueur, curieux et très câlin",
+  sterilise: true,
+  vaccins: true,
+  santeSupplementaire: "Aucune allergie",
+  activites: ["Ballon", "Baignade", "Longues balades", "Siestes"],
+};
+
+export default function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 p-6">
+      <ProfilChien chien={exempleChien} />
+    </div>
   );
 }

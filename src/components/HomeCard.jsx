@@ -3,14 +3,14 @@ import { Calendar, MapPin, MoveRight } from "lucide-react";
 export default function HomeCard({ animal }) {
   console.log(animal);
   return (
-    <div className="bg-white rounded-lg max-w-10/12">
-      <div className="flex gap-x-2 flex-col items-center justify-center  shadow-md rounded-lg ">
+    <div className="bg-white rounded-lg my-4 w-full">
+      <div className="flex  flex-col   shadow-md rounded-lg ">
         <img
           src={animal.image}
           alt="animal"
           className="w-full  object-cover rounded-t-lg h-50"
         />
-        <div className="flex flex-col  p-4">
+        <div className="flex flex-col px-7 py-4">
           <h4 className="text-xl font-bold text-secondary">{animal.nom}</h4>
           <div className="flex flex-row items-center gap-4">
             <p className="flex flex-row items-center my-2">

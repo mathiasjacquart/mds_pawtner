@@ -26,6 +26,7 @@
 
 .body-match {
   height: 100vh;
+  background-color: #fcfced;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,6 +123,18 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+}
+
+h2 {
+  padding: 10px;
+  text-align: left;
+  font-size: 32px;
 }
 
 .h1-profile {

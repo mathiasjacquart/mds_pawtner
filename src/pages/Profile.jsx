@@ -1,7 +1,6 @@
 
 import React from "react";
-import { useParams } from "react-router-dom";
-import animals from "../../data/animals.json";
+
 
 const ProfilChien = ({ chien }) => {
   return (
@@ -81,5 +80,5 @@ export default function Profile() {
     <div className="min-h-screen bg-gray-100 p-6">
       <ProfilChien chien={exempleChien} />
     </div>
-  )
+  );
 }

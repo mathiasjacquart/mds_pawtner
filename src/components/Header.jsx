@@ -1,7 +1,7 @@
 import { Home, Heart, MessageCircle, Dog } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-function Header({ activePage }) {
+function Header({ activePage, setActivePage }) {
   const navigate = useNavigate();
 
   // ID de l'utilisateur par défaut pour la session (user 1)
@@ -31,7 +31,10 @@ function Header({ activePage }) {
       {links.map((link) => (
         <button
           key={link.id}
-          onClick={() => navigate(link.id)}
+          onClick={() => {
+            navigate(link.id);
+            setActivePage(link.id);
+          }}
           className={`flex flex-col items-center text-sm ${
             activePage === link.id ? "text-white" : "text-tertiary"
           }`}

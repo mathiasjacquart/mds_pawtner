@@ -10,7 +10,7 @@ function App() {
       <main className="flex-1 overflow-y-auto pb-16">
         <Outlet />
       </main>
-      <Header activePage={activePage} />
+      <Header activePage={activePage} setActivePage={setActivePage} />
     </div>
   );
 }

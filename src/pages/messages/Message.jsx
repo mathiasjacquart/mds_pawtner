@@ -15,11 +15,11 @@ export default function Message() {
   console.log("Current user:", user);
 
   return (
-    <div>
+    <div className="py-10">
       <div className="flex flex-col max-w-10/12 mx-auto">
-        <h1 className="text-2xl font-bold text-tertiary mt-5">Messages</h1>
+        <h1 className="text-3xl font-bold text-tertiary mt-5">Messages</h1>
 
-        <h2 className="text-lg font-bold my-5 text-secondary">
+        <h2 className="text-xl font-bold my-5 text-secondary">
           Messages reçus de vos matchs
         </h2>
         <div className="flex flex-col gap-3">
